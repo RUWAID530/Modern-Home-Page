@@ -1,0 +1,153 @@
+body{
+    min-height: 100vh;
+}
+
+
+
+/* Custom styles */
+.carousel-item {
+    height: 100vh;
+    min-height: 400px;
+    background: no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.carousel-item img {
+    object-fit: cover;
+    height: 100vh;
+    min-height: 400px;
+}
+
+.carousel-caption {
+    bottom: 30%;
+    z-index: 2;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+/* Cards  */
+img.cardi3{
+    height: 100%;
+}
+.cards{
+    display:inline-flex;
+}
+.category-card {
+    padding: 2rem;
+    border: 1px solid #080808;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    background: #000;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+img.cat3{
+    height: 100%;
+}
+img.cat4{
+    height: 100%;
+}
+
+.social-links a {
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+    color: #007bff !important;
+}
+/* logo */
+.hello{
+    left: 0;
+    width: 200px;
+    height: auto;
+    position: fixed;
+}
+/* about section */
+.abt{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#about{
+    background: linear-gradient(yellow, red);
+    margin-top: 20px;
+}
+.about{
+    margin-top: 90px;
+    font-size: 25px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+.apps{
+    margin-top: 20px;
+}
+/* signature dishes */
+.dish{
+    background: linear-gradient(yellow,red);
+    margin-top: 20px;
+}
+/* navbar */
+.navbar{
+    background: #D2691E;
+    height: 50px;
+    
+}
+/* footer */
+.footer {
+    background-color: #222;
+    color: white;
+    padding: 2rem 0;
+   height: 80%;
+    position: sticky;
+    margin-bottom: -7%;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    bottom: 0%;
+  
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+}
+
+.footer-section h5 {
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.footer-section p {
+    margin: 0.5rem 0;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid #444;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+}
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .carousel-caption h1 {
+        font-size: 2rem;
+    }
+}
